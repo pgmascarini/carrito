@@ -43,6 +43,10 @@ button {
   width: 26%;
 }
 
+.third-col {
+  padding-left: 10px;
+}
+
 .cart-product td {
   padding: 8px 0;
 }
@@ -64,20 +68,22 @@ button {
 
 .cart-product-price {
   font-family: "Raleway", sans-serif;
+  padding-left: 8px;
 }
 
 .product-qtd-input {
   width: 48px;
   height: 34px;
   border-radius: 6px;
-  border: 2px solid #56c5db;
+  border: 2px solid #91a566;
   text-align: center;
   background: #eee;
+  margin-left: 30px;
 }
 
 .remove-product-button {
   margin-left: 12px;
-  background: #ff0000;
+  background: #a88914;
   color: #fff;
   padding: 10px 8px;
   border: 0;
