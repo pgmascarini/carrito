@@ -10,15 +10,16 @@ button {
   cursor: pointer;
 }
 
-.container {
+.container-carrito {
   max-width: 600px;
   margin: 0 auto;
-  padding: 0 16px
+  padding: 30px 16px;
+  background-color: #d8e5ab;
 }
 
 .section-title {
   font-family: 'Raleway', sans-serif;
-  font-size: 32px;
+  font-size: 22px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 24px;
@@ -102,7 +103,7 @@ button {
 .purchase-button {
   display: flex;
   margin: 24px auto 0;
-  background: #56c5db;
+  background: #91a566;
   color: #fff;
   border: 0;
   border-radius: 6px;
