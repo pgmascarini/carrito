@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shopping Cart UI</title>
+    <link rel="stylesheet" type="text/css" href="bea.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,900" rel="stylesheet">
+</head>
+
+<body>
+    <section class="container">
+        <h2 class="section-title">Carrito de Compras</h2>
+
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th class="table-head-item">Iten</th>
+                    <th class="table-head-item second-col">Precio</th>
+                    <th class="table-head-item third-col">Cantidad</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr class="cart-product">
+                    <td class="product-identification">
+                        <img src="images/produto2.png" alt="Miniatura" class="cart-product-image">
+                        <strong class="cart-product-title">ejemplo1</strong>
+                    </td>
+                    <td>
+                        <span class="cart-product-price">$69,90</span>
+                    </td>
+                    <td>
+                        <input type="number" value="2" min="0" class="product-qtd-input">
+                        <button type="button" class="remove-product-button">Remover</button>
+                    </td>
+                </tr>
+                <tr class="cart-product">
+                    <td class="product-identification">
+                        <img src="images/poster3.png" alt="Poster 3" class="cart-product-image">
+                        <strong class="cart-product-title">ejemplo2</strong>
+                    </td>
+                    <td>
+                        <span class="cart-product-price">$19,99</span>
+                    </td>
+                    <td>
+                        <input type="number" value="1" min="0" class="product-qtd-input">
+                        <button type="button" class="remove-product-button">Remover</button>
+                    </td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td colspan="3" class="cart-total-container">
+                        <strong>Total</strong>
+                        <span>$0,00</span>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <button type="button" class="purchase-button">Finalizar Compra</button>
+    </section>
+</body>
+
+</html>
